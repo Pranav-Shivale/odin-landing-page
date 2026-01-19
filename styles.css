@@ -26,12 +26,12 @@ a {
   flex-direction: column;
   background-color: #1f2937;
   gap: 60px;
-  padding: 16px 48px 72px 48px;
+  padding: 16px 200px 100px 200px;
 }
 
 .nav-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo {
@@ -41,7 +41,7 @@ a {
 
 .hero {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .hero-text {
@@ -70,7 +70,7 @@ a {
   border: none;
   border-radius: 8px;
   color: white;
-  padding: 8px 32px;
+  padding: 10px px;
 }
 
 .hero-img {
@@ -80,6 +80,6 @@ a {
   justify-content: center;
   align-items: center;
   padding: 24px;
-  width: 400px;
+  width: 500px;
 }
 
