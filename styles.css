@@ -87,7 +87,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 36px 0px 72px 0px;
+  padding: 36px 0px 96px 0px;
   gap: 36px;
 }
 
@@ -125,4 +125,32 @@ a {
 .info-txt {
   color: rgb(83, 83, 83);
   align-self: flex-start;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 850px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  
+}
+
+.quoter {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
 }
