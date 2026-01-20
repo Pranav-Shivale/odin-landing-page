@@ -101,6 +101,7 @@ a {
   display: flex;
   max-width: 1000px;
   justify-content: center;
+  gap: 48px;
 }
 
 .info-img-txt {
@@ -111,7 +112,7 @@ a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .info-img {
